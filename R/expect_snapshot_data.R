@@ -27,8 +27,7 @@ expect_snapshot_data <- function(x, name, digits = 6) {
   )
 }
 
-save_csv <- function (x)
-{
+save_csv <- function(x) {
   path <- tempfile(fileext = ".csv")
   readr::write_csv(x, path)
   path
