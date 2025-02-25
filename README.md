@@ -5,7 +5,11 @@
 [![R-CMD-check](https://github.com/d-morrison/snapshot.data/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/d-morrison/snapshot.data/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
-The goal of snapshot.data is to ...
+The goal of snapshot.data is to export the `expect_snapshot_data()` function from `https://github.com/bcgov/ssdtools`, 
+to test functions in other projects, without having to import the entire `ssdtools` package.
+
+See <https://github.com/bcgov/ssdtools/issues/379#issuecomment-2372581429>.
+
 
 ## Installation
 
