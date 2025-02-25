@@ -1,3 +1,16 @@
+#' Snapshot a data frame
+#'
+#' @param x a [data.frame]
+#' @param name a [character] name of the snapshot
+#' @param digits a [numeric] number of digits to round to
+#'
+#' @returns NULL
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' iris |> expect_snapshot_data(name = "iris")
+#' }
 expect_snapshot_data <- function(x, name, digits = 6) {
   fun <- function(x) signif(x, digits = digits)
   lapply_fun <- function(x) I(lapply(x, fun))
