@@ -14,7 +14,8 @@ expect_snapshot_data(x, name, digits = 6)
 \item{digits}{a \link{numeric} number of digits to round to}
 }
 \description{
-Snapshot a data frame
+Copied with permission:
+\url{https://github.com/bcgov/ssdtools/issues/379#issuecomment-2372581429}
 }
 \examples{
 \dontrun{

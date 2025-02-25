@@ -1,4 +1,7 @@
 #' Snapshot a data frame
+#' @description
+#' Copied with permission:
+#' <https://github.com/bcgov/ssdtools/issues/379#issuecomment-2372581429>
 #'
 #' @param x a [data.frame]
 #' @param name a [character] name of the snapshot
