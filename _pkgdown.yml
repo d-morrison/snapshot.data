@@ -1,0 +1,5 @@
+url: https://d-morrison.github.io/snapshot.data/
+template:
+  bootstrap: 5
+  light-switch: true
+
